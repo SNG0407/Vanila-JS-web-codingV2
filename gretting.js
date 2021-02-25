@@ -1,12 +1,3 @@
-/*   */
-/*   */
-/*   */
-/*   */
-/*   */
-/*   */
-/*   */
-/* #3-3 Saving the User Name part One
- #3-3 Saving the User Name part One   */
 
 const greetForm = document.querySelector(".js-form"),
 	input = greetForm.querySelector("input"),

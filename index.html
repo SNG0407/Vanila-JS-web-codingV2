@@ -11,6 +11,26 @@
 	<link rel="stylesheet" type="text/css" href="javacss.css">
 </head>
 <body>
+	<h1 id="tit" class="btn ">todo<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square-fill" id="signBtn" viewBox="0 0 16 16">
+		<path d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z"/>
+	  </svg></h1>
+	
+	<div class="js-clock">
+		<h1>00:00</h1>
+	</div>
+	<form class="js-form form">
+		<input type="text" placeholder="What is your name?">
+	</form>
+	<h4 class="js-greetings greetings"></h4>
+	<button class="js-nameButton" onclick="deleteItem()">RENAME</button>
+	
+	<form class="js-toDoForm">
+		<input type="text" placeholder="What'd like to do?">
+	</form>
+	<ul class="js-toDoList">
+		<!-- <li id="1">test</li> -->
+	</ul>
+	<span class ="js-weather"></span>
 	<div class="mx-auto headName">
 		<form action="https://www.google.com/search" method="GET">
 			<div class="search_box">
@@ -26,29 +46,10 @@
 		</form>
 		<div class=" soogleLogo"><span style="color: #4285f4;">S</span><span style="color: #ea4335;">o</span><span style="color: #fbbc05;">o</span><span style="color: #6cbd40;">g</span><span style="color: #fbbc05;">l</span><span style="color: #ea4335;">e</span></div>
 	</div>	
-
-	<h1 id="tit" class="btn ">This works?</h1>
-
-	<div class="js-clock">
-		<h1>00:00</h1>
-	</div>
-	<form class="js-form form">
-		<input type="text" placeholder="What is your name?">
-	</form>
-	<h4 class="js-greetings greetings"></h4>
-	<button class="js-nameButton" onclick="deleteItem()">RENAME</button>
-
-	<form class="js-toDoForm">
-		<input type="text" placeholder="What'd like to do?">
-	</form>
-	<ul class="js-toDoList">
-		<!-- <li id="1">test</li> -->
-	</ul>
-	<span class ="js-weather"></span>
-<!-- <script src="java.js"></script> -->
-<script src="clock.js"></script>
-<script src="gretting.js"></script>
-<script src="Eventhandler.js"></script>
+	<!-- <script src="java.js"></script> -->
+	<script src="clock.js"></script>
+	<script src="gretting.js"></script>
+	<script src="Eventhandler.js"></script>
 <script src="todo.js"></script>
 <script src="bg.js"></script>
 <script src="weather.js"></script>
